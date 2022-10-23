@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+  <!DOCTYPE empresa>
+    <empresa nombre=”MOLINER”>
+	<empleados>
+         <empleado DNI=”1111111111” nombre=”María Sanz”>
+             <telefonos movil=”666666666” casa=”912345688”/>
+         </empleado>
+
+    <empleado DNI=”2222222222” nombre=”Juan Gómez”>
+        <telefonos movil=”677777777” casa=”918654339”/>
+    </empleado>
+
+         <!—y así para cada empleado->
+      
+    </empleados>
+
+</empresa>

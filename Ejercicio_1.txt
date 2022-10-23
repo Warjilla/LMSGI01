@@ -1,0 +1,21 @@
+# Ejercicio 1: Indicar por que los sguientes elementos XML son incorrectos
+
+Ejercicio 1a)
+    <elemento>Elemento 1</elemento>
+    <elemento>Elemento 2</elemento>
+    ## Los elementos son incorrectos por que....
+Ejercicio 1b)
+    <elemento>Coche</ELEMENTO>
+Ejercicio 1c)
+    <negrita><italica>Texto XML</negrita></italica>
+Ejercicio 1d)
+    <rango>1 < 5 & 11 > 7</rango>
+
+Ejercicio 1e)
+    <XMLfichero>Marcas.xml</XMLfichero> 
+Ejercicio 1f)
+    <![CDATA[ <[[aa]]>]]>
+Ejercicio 1g)
+    <user@uo>Pedro@Empleados</user@guo>
+Ejercicio 1h)
+    <texto>El titular de hoy se basa en esta <subrayado>noticia<subrayado></texto>
