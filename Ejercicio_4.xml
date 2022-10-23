@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 3
+    Diseñar un documento XML válido que permita estructurar la información para permitir su gestión informática de los alumnos de un modulo del ciclo formativo DAM. 
+    Aplicarlo al módulo de Lenguajes de Marcas y Sistemas de Gestión de Información sabiendo que tiene asignadas 4 horas semanales y es de carácter obligatorio.
+    El modulo se imparte entre el 15 de septiembre de 2010 y el 30 de junio de 2011. Hay matriculados dos alumnos: ...
+-->
+<!-- Por hacer -->
+  <!DOCTYPE empresa>
+    <empresa nombre="MOLINER">
+	<empleados>
+         <empleado DNI="1111111111" nombre="María Sanz">
+             <telefonos movil="666666666" casa="912345688"/>
+         </empleado>
+
+    <empleado DNI="2222222222" nombre="Juan Gómez">
+        <telefonos movil="677777777" casa="918654339"/>
+    </empleado>
+    <!-- Esto es un comentario -->
+
+      
+    </empleados>
+
+</empresa>

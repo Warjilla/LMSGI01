@@ -1,17 +1,21 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 2 
+    Diseñar un documento válido en XML que permita estructurar la información de una agenda de teléfonos, 
+    suponer que la información que podemos tener de una persona es su nombre y apellidos, su dirección y sus teléfonos, 
+    que pueden ser el teléfono de casa, el móvil y el teléfono del trabajo. 
+-->
+<!-- Por hacer -->
   <!DOCTYPE empresa>
-    <empresa nombre=”MOLINER”>
+    <empresa nombre="MOLINER">
 	<empleados>
-         <empleado DNI=”1111111111” nombre=”María Sanz”>
-             <telefonos movil=”666666666” casa=”912345688”/>
+         <empleado DNI="1111111111" nombre="María Sanz">
+             <telefonos movil="666666666" casa="912345688"/>
          </empleado>
 
-    <empleado DNI=”2222222222” nombre=”Juan Gómez”>
-        <telefonos movil=”677777777” casa=”918654339”/>
+    <empleado DNI="2222222222" nombre="Juan Gómez">
+        <telefonos movil="677777777" casa="918654339"/>
     </empleado>
-
-         <!—y así para cada empleado->
-      
+    <!-- Esto es un comentario -->
     </empleados>
 
 </empresa>
