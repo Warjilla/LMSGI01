@@ -4,20 +4,34 @@
     Aplicarlo al módulo de Lenguajes de Marcas y Sistemas de Gestión de Información sabiendo que tiene asignadas 4 horas semanales y es de carácter obligatorio.
     El modulo se imparte entre el 15 de septiembre de 2010 y el 30 de junio de 2011. Hay matriculados dos alumnos: ...
 -->
-<!-- Por hacer -->
-  <!DOCTYPE empresa>
-    <empresa nombre="MOLINER">
-	<empleados>
-         <empleado DNI="1111111111" nombre="María Sanz">
-             <telefonos movil="666666666" casa="912345688"/>
-         </empleado>
+<!DOCTYPE DAM>
 
-    <empleado DNI="2222222222" nombre="Juan Gómez">
-        <telefonos movil="677777777" casa="918654339"/>
-    </empleado>
-    <!-- Esto es un comentario -->
+<DAM>
 
-      
-    </empleados>
-
-</empresa>
+	<modulo nombre="lenguaje de marcas y sistemas de gestion de informacion" tiempo="4horas semanales" caracter="obligatorio" inicio="15/09/10" fin="30/09/11"> 
+	
+		<alumno>
+            <nombre>ana</nombre>
+            <apellidos>fernadez gutierrez</apellidos>
+            <nif>16965696l</nif>
+            <telefono>789654321</telefono>
+            <email>...</email>
+            <direccion>...</direccion>
+            <cp>...</cp>
+            <asistencia/>
+            <nota/>
+		</alumno>
+		
+		<alumno nombre="pepito grillo" nif="98765432H" telefono="656566555" email="yhyh@yahoo.com" direccion="Avd. El Pez, 5" cp="39401" faltas="no tiene" nota="apto">
+            <nombre>ana</nombre>
+            <apellidos>fernadez gutierrez</apellidos>
+            <nif>16965696l</nif>
+            <telefono>789654321</telefono>
+            <email>...</email>
+            <direccion>...</direccion>
+            <cp>...</cp>
+            <asistencia/>
+            <nota>apto</nota>
+		</alumno>
+	</modulo>	
+</DAM>

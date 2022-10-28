@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Ejercicio 3
-    Diseñar un documento válido en XML que permita estructurar la información de las recetas de cocina de un restaurante y aplicarlo a la siguiente receta de cocina.
-    Hay que hacerlo de modo que un sistema informático pueda realizar búsquedas por ingredientes, cantidad de comensales o nombre de la receta 
+				Diseñar un documento válido en XML recetas de cocina de un restaurante y aplicarlo a la siguiente receta de cocina. Hay que hacerlo de modo que un sistema informático pueda realizar búsquedas por ingredientes, cantidad de comensales o nombre de la receta
+	Sopa de cebolla 
 -->
-<!-- Por hacer -->
-  <!DOCTYPE empresa>
-    <empresa nombre="MOLINER">
-	<empleados>
-         <empleado DNI="1111111111" nombre="María Sanz">
-             <telefonos movil="666666666" casa="912345688"/>
-         </empleado>
+<!DOCTYPE recetas>
+<recetas>
+	<receta nombre="sopa de cebolla" comensales="4">
+		<ingredientes>
+			<ingrediente>
+				<nombre>Cebolla</nombre>
+				<cantidad>1</cantidad>
+				<unidad>Kg</unidad>
+			</ingrediente>
+				<!-- por hacer -->
+			<ingrediente nombre="caldo de carne" cantidad="2" unidad="litro">
+			</ingrediente>
+			<ingrediente nombre="mantequilla" cantidad="100" unidad="gramos">
+			</ingrediente>
+			<ingrediente nombre="harina" cantidad="1" unidad="cucharada">
+			</ingrediente>
+			<ingrediente nombre="queso emmental" cantidad="100" unidad="gramos">
+			</ingrediente>
+			<ingrediente nombre="pan tostado" unidad="rebanadas">
+			</ingrediente>
+			<ingrediente nombre="tomillo">
+			</ingrediente>
+			<ingrediente nombre="laurel" cantidad="1" unidad="hoja">
+			</ingrediente>
+			<ingrediente nombre="pimienta" >
+			</ingrediente>        
+		</ingredientes>
+		<proceso>
+			<nombre orden="1">Pelar y partir las cebollas en rodajas finas.</nombre>
+			<nombre orden="2">...</nombre>
+			<!-- por hacer -->
+		</proceso>
 
-    <empleado DNI="2222222222" nombre="Juan Gómez">
-        <telefonos movil="677777777" casa="918654339"/>
-    </empleado>
-    <!-- Esto es un comentario -->
-
-      
-    </empleados>
-
-</empresa>
+	</receta>
+				<!-- He dividido la estructura de la receta de esta manera por que al leer el enunciado habia claramente dos listas (arrays) diferenciadas.
+				Una lista para los ingredientes y otra lista para el proceso de elaboración de la receta. -->
+</recetas>

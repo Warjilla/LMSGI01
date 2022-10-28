@@ -4,18 +4,29 @@
     suponer que la información que podemos tener de una persona es su nombre y apellidos, su dirección y sus teléfonos, 
     que pueden ser el teléfono de casa, el móvil y el teléfono del trabajo. 
 -->
-<!-- Por hacer -->
-  <!DOCTYPE empresa>
-    <empresa nombre="MOLINER">
-	<empleados>
-         <empleado DNI="1111111111" nombre="María Sanz">
-             <telefonos movil="666666666" casa="912345688"/>
-         </empleado>
 
-    <empleado DNI="2222222222" nombre="Juan Gómez">
-        <telefonos movil="677777777" casa="918654339"/>
-    </empleado>
-    <!-- Esto es un comentario -->
-    </empleados>
+<!DOCTYPE agenda>
+<agenda>
+     <contacto>
+        <nombre>candido</nombre>
+        <apellidos>lopez lopez</apellidos>
+        <direccion>pl azoguejo 5</direccion>
+	    <telefonos>
+            <casa>921111111</casa>
+            <movil>666111111</movil>
+            <trabajo>777111111</trabajo>
+		</telefonos>
+	</contacto>
+	 
+	<contacto nombre="marisa" apellidos="duque ramirez" direccion= "cervantes 11">
+	 
+		<telefonos>
+			<telefono casa="921222222" movil="666222222" trabajo="777222222">
+			</telefono>
+		</telefonos>
 
-</empresa>
+	</contacto>
+	
+	<!-- asi tantos contactos como sea necesario --> 
+
+</agenda>
