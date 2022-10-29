@@ -38,5 +38,8 @@
 
 	</receta>
 				<!-- He dividido la estructura de la receta de esta manera por que al leer el enunciado habia claramente dos listas (arrays) diferenciadas.
-				Una lista para los ingredientes y otra lista para el proceso de elaboración de la receta. -->
+				Una lista para los ingredientes y otra lista para el proceso de elaboración de la receta. 
+				Dentro de la lista de ingredientes, la información esta estructurada en elementos y no es atributos para que esa infrmacion pueda ser facilmente ampliable.
+				Dentro de la lista de la elaboracion de la receta, he añadido un atributo llamado orden que contiene un identificador numerico unico y secuencial para que no haya duda cual es el orden de elaboracion de la receta. Ya que cambiar el orden de ejecucion podria afectar al resultado.
+				-->
 </recetas>

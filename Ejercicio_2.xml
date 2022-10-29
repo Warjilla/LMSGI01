@@ -29,4 +29,8 @@
 	
 	<!-- asi tantos contactos como sea necesario --> 
 
+<!-- He usado esta estructura por que al seguir el enunciado del ejercicio este indica que hay que diseñar una lista(array) de contactos.
+En cada contacto guardamos los elementos a almacenar, tales como el nombre, apellidos y telefono.
+He decidido agrupar los telefonos dentro de un unico elemento ya que es informacion que está relacionada.
+He decidido usar solo elementos y no atributos para que sea mas facil ampliar la informacion que se almacena de cada contacto. -->
 </agenda>
